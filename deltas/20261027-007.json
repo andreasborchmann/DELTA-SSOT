@@ -1,0 +1,30 @@
+{
+  "delta_id": "ULTRA-Δ-20261027-007",
+  "schema_version": "udp-1.0",
+  "target": {
+    "document": "artefakte/ULTRA_PROTOCOL_SYS_INIT_RUNTIME_1_0.md",
+    "section_heading": "## ULTRA MENU",
+    "context_hash": "sha256:924399b2bb2638e19e9c3314554afdc47c98c546fb2fd93c4eb0da22cd661e41",
+    "base_sha": "9d342393364b93d471b02acb46f30dd45da8ab5e"
+  },
+  "operation": "replace_lines",
+  "payload": [
+    {
+      "old": "[PHASE: P0 | ROLLE: — | LOAD: 1/7]",
+      "new": "```\n[PHASE: P0 | ROLLE: — | LOAD: 1/7]"
+    },
+    {
+      "old": "Eingabe: Zahl oder freier Text",
+      "new": "Eingabe: Zahl oder freier Text\n```"
+    }
+  ],
+  "meta": {
+    "rationale": "Setzt die Ausgabe von ULTRA MENU, von der Kopfzeile bis zur Eingabezeile, in einen Codeblock, damit GitHub und andere Markdown-Leser das Menü wörtlich und mit seinen Zeilenumbrüchen zeigen; der Inhalt bleibt Zeichen für Zeichen gleich. Geplantes Detail für Schritt 4 von DELTA-SSOT (S002, R-11), Zieltext und Umfang vom Owner bestätigt in S003. Die Changelog-Zeile bleibt im Pilot bewusst aus (V-4).",
+    "author": "Claude Code, claude-opus-5-5, Session DELTA-SSOT-PBP-S003",
+    "status": "pending",
+    "expected_lines": {
+      "before": 18,
+      "after": 20
+    }
+  }
+}

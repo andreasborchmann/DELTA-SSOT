@@ -51,6 +51,7 @@ Bereit.
 
 ## ULTRA MENU
 **Trigger:** `ULTRA MENU`
+```
 [PHASE: P0 | ROLLE: — | LOAD: 1/7]
 
 ══════════════════════════════════════
@@ -64,6 +65,7 @@ ULTRA v[Version] — NAVIGATION
 [0] Direkt beginnen (freie Eingabe)
 ══════════════════════════════════════
 Eingabe: Zahl oder freier Text
+```
 
 ---
 
